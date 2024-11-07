@@ -23,34 +23,6 @@
 </html>
 
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIF con Hipervínculo</title>
-    <style>
-        .image-link {
-            display: block; /* Hace que el enlace se comporte como un bloque para que ocupe toda la imagen */
-            max-width: 40%; /* Ajusta el tamaño de la imagen al contenedor */
-            margin: 30opx; /* Espacio alrededor de la imagen */
-        }
-    </style>
-</head>
-<body>
-    <a href="https://wa.me/88034121">
-        <img src="whassa.jpg" alt="Descripción del GIF" class="image-link">
-    </a>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -91,4 +63,65 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro de Texto Copiable</title>
+    <style>
+        .text-container {
+            background-color: black; /* Fondo negro */
+            color: white; /* Letras blancas */
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            max-width: 300px;
+            word-wrap: break-word;
+        }
+        .text-container textarea {
+            width: 100%;
+            height: 150px;
+            background-color: black; /* Fondo negro */
+            color: white; /* Letras blancas */
+            border: none;
+            resize: none; /* Para evitar que el usuario cambie el tamaño del área de texto */
+        }
+        .copy-btn {
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <textarea id="textToCopy" readonly>Este es el texto que puedes copiar.</textarea>
+        <button class="copy-btn" onclick="copyText()">Copiar Texto</button>
+    </div>
+    <script>
+        function copyText() {
+            var textArea = document.getElementById("textToCopy");
+            textArea.select();
+            document.execCommand("copy");
+            alert("Texto copiado al portapapeles!");
+        }
+    </script>
+</body>
+</html>
+
 
