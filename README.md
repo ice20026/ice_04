@@ -31,8 +31,8 @@
     <style>
         .image-link {
             display: block; /* Hace que el enlace se comporte como un bloque para que ocupe toda la imagen */
-            max-width: 60%; /* Ajusta el tamaño de la imagen al contenedor */
-            margin: 40opx; /* Espacio alrededor de la imagen */
+            max-width: 40%; /* Ajusta el tamaño de la imagen al contenedor */
+            margin: 30opx; /* Espacio alrededor de la imagen */
         }
     </style>
 </head>
