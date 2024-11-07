@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -144,7 +144,7 @@
 
 
 
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -195,6 +195,45 @@ footer: Define el estilo del pie de página, que está fijo en la parte inferior
 </body>
 </html>
 
+
+
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de Dimensiones de Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 200vh; /* Altura de la página completa */
+            width: 200vw; /* Ancho de la página completa */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 100vw; /* Ancho del contenedor */
+            height: 100vh; /* Altura del contenedor */
+            background-color: black;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto; /* Centra el contenedor en la página */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+    </div>
+</body>
+</html>
 
 
 
