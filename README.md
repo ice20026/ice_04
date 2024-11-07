@@ -86,7 +86,7 @@
             word-wrap: break-word;
         }
         .text-container textarea {
-            width: 200%;
+            width: 150%;
             height: 150px;
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
@@ -94,8 +94,8 @@
             resize: none; /* Para evitar que el usuario cambie el tamaño del área de texto */
         }
         .copy-btn {
-            margin-top: 10px;
-            padding: 10px 20px;
+            margin-top: 50px;
+            padding: 40px 40px;
             color: white;
             background-color: #007BFF;
             border: none;
