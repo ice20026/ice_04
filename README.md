@@ -66,36 +66,50 @@
 
 
 
-
-
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuadro de Texto Copiable</title>
+    <title>Cuadro de Texto con Botón de Copia</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
         .text-container {
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
-            padding: 30px;
+            padding: 20px;
             border-radius: 5px;
-            margin: 40px;
+            margin: 20px;
             font-family: Arial, sans-serif;
-            max-width: 300px;
+            max-width: 600px;
+            width: 100%;
             word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .text-container textarea {
-            width: 200%;
-            height: 200px;
+            width: 100%;
+            height: 150px; /* Altura configurable */
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
             border: none;
+            border-radius: 5px;
             resize: none; /* Para evitar que el usuario cambie el tamaño del área de texto */
+            padding: 10px;
         }
         .copy-btn {
-            margin-top: 50px;
-            padding: 40px 40px;
+            margin-top: 10px;
+            padding: 10px 20px;
             color: white;
             background-color: #007BFF;
             border: none;
@@ -109,7 +123,7 @@
 </head>
 <body>
     <div class="text-container">
-        <textarea id="textToCopy" readonly>
+        <textarea id="textToCopy" readonly><!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -176,8 +190,8 @@
         <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
     </footer>
 </body>
-</htm 
-  </textarea>
+</html>
+</textarea>
         <button class="copy-btn" onclick="copyText()">Copiar Texto</button>
     </div>
     <script>
@@ -185,10 +199,11 @@
             var textArea = document.getElementById("textToCopy");
             textArea.select();
             document.execCommand("copy");
-            alert("Texto copiado al portapapeles!");
+            alert("¡Texto copiado al portapapeles!");
         }
     </script>
 </body>
 </html>
+
 
 
