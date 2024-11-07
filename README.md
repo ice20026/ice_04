@@ -86,8 +86,8 @@
             word-wrap: break-word;
         }
         .text-container textarea {
-            width: 150%;
-            height: 150px;
+            width: 200%;
+            height: 200px;
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
             border: none;
