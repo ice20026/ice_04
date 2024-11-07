@@ -23,7 +23,6 @@
 </html>
 
 
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -32,8 +31,8 @@
     <style>
         .image-link {
             display: block; /* Hace que el enlace se comporte como un bloque para que ocupe toda la imagen */
-            max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
-            margin: 20px; /* Espacio alrededor de la imagen */
+            max-width: 60%; /* Ajusta el tamaño de la imagen al contenedor */
+            margin: 40opx; /* Espacio alrededor de la imagen */
         }
     </style>
 </head>
@@ -92,13 +91,4 @@
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
 
