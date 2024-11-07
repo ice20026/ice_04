@@ -78,15 +78,15 @@
         .text-container {
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
-            padding: 20px;
+            padding: 30px;
             border-radius: 5px;
-            margin: 20px;
+            margin: 40px;
             font-family: Arial, sans-serif;
             max-width: 300px;
             word-wrap: break-word;
         }
         .text-container textarea {
-            width: 100%;
+            width: 200%;
             height: 150px;
             background-color: black; /* Fondo negro */
             color: white; /* Letras blancas */
@@ -177,7 +177,7 @@
     </footer>
 </body>
 </htm 
-    </textarea>
+  </textarea>
         <button class="copy-btn" onclick="copyText()">Copiar Texto</button>
     </div>
     <script>
