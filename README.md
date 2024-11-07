@@ -152,6 +152,7 @@
     <title>Descripción de Elemento</title>
     <style>
         body {
+            
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             margin: 0;
@@ -309,141 +310,59 @@ footer: Define el estilo del pie de página, que está fijo en la parte inferior
     <div class="text-container">
         <textarea id="textToCopy" readonly>
         
-        
+
+
+
+
+
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botones, Hipervínculos y Fondos</title>
+    <title>Código Alineado a la Derecha</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-            background-color: #fff;
+            margin: 0;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .btn {
-            display: inline-block;
-            font-size: 18px;
-            padding: 15px 30px;
+        .code-container {
+            background-color: #333;
             color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            margin: 10px;
-            transition: background-color 0.3s, box-shadow 0.3s;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-            margin: 10px;
-            display: inline-block;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Ejemplo de Página Web</h1>
-        <p>Esta es una página de ejemplo que incluye botones, hipervínculos y un fondo estilizado.</p>
-        <!-- Botón que actúa como hipervínculo -->
-        <a href="https://www.ejemplo.com" class="btn">Visitar Ejemplo</a>  
-        <!-- Hipervínculo de texto -->
-        <a href="https://www.ejemplo.com">Enlace de Texto</a>
-    </div>
-</body>
-</html>
-</textarea>
-        <button class="copy-btn" onclick="copyText()">Copiar Texto</button>
-    </div>
-    <script>
-        function copyText() {
-            var textArea = document.getElementById("textToCopy");
-            textArea.select();
-            document.execCommand("copy");
-            alert("¡Texto copiado al portapapeles!");
-        }
-    </script>
-</body>
-</html>
-
-
-
-
-
-
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descripción de Elemento</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .description-container {
-            background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 600px;
-            margin: 20px auto;
+            margin-left: auto; /* Margen automático para alinear a la derecha */
         }
-        .description-container h2 {
-            margin-top: 0;
-        }
-        .description-container p {
-            color: #666;
+        code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
         }
     </style>
 </head>
 <body>
-    <div class="description-container">
-        <h2>codigo para poner fondo,hipervinculo y aplicar fondos </h2>
-        <p>
-
-        
-        Explicación del Código
-HTML: Define la estructura básica de la página, incluyendo el contenedor para el contenido principal, botones y enlaces.
-
-CSS: Aplica estilos a la página, el contenedor, los botones y los hipervínculos.
-
-body: Utiliza display: flex; justify-content: center; align-items: center; height: 100vh; para centrar el contenido vertical y horizontalmente en la pantalla. Aplica un color de fondo gris claro.
-
-.container: Define el contenedor con un fondo blanco, padding, bordes redondeados y sombra. También centra el texto.
-
-.btn: Estiliza el botón con un color de fondo azul, texto blanco, bordes redondeados y una sombra. También define efectos al pasar el ratón.
-
-a: Estiliza los hipervínculos con un color azul y elimina la subrayado por defecto. Agrega un efecto de subrayado al pasar el ratón.  
-        </p>
+    <h1>Ejemplo de Código Alineado a la Derecha</h1>
+    <div class="code-container">
+        <code>
+            &lt;!-- Este es un ejemplo de código HTML alineado a la derecha --&gt;
+            &lt;div class="example"&gt;
+                &lt;p&gt;¡Hola Mundo!&lt;/p&gt;
+            &lt;/div&gt;
+        </code>
     </div>
 </body>
 </html>
-
 
 
 
