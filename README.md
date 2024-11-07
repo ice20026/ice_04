@@ -209,7 +209,7 @@ footer: Define el estilo del pie de página, que está fijo en la parte inferior
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            height: 150vh; /* Altura de la página completa */
+            height: 250vh; /* Altura de la página completa */
             width: 100vw; /* Ancho de la página completa */
             display: flex;
             justify-content: center;
